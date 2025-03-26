@@ -11,10 +11,6 @@ func main() {
 
 	//using formatted strings %v for string
 	fmt.Printf("These are the  %v firstVariable \n \n",firstVariable )
-	
-
-
-
 
 
 }
