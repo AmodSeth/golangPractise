@@ -11,4 +11,4 @@ func helperfunction(text1, text2 string) (contcat string)  {
 func main (){
 	fmt.Print(helperfunction("origin","objects"))
 	return;
-}
+}3
