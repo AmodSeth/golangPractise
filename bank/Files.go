@@ -1,11 +1,22 @@
 package main
 
-import "os"
-import "fmt"
+import (
+	"fmt"
+	"os"
+	"strconv"
+)
 
 func writebalancetofile() {
 	current_balance := "2000"
 	os.WriteFile("balance.txt", []byte(current_balance), 0644)
+}
+
+func readbalancefromfile() float64 {
+	data, _ := os.ReadFile(balance.txt)
+	balancetext := string(data)
+	balance ,  _ :=   strconv.ParseFloat(balancetext, 64)
+	return balance
+
 }
 
 func main() {
