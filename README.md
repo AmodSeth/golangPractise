@@ -30,3 +30,16 @@ by using backticts `
 - packageName - os
 
 
+
+
+
+
+
+### --> clear seperation of code
+- using packages to distribute the code 
+Note they must be in the same pacakge with all the imports
+
+
+
+### exporting 
+- It should start with an uppercase letter to make it export to another package
