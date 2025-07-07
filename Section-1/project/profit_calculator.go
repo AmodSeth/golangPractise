@@ -28,6 +28,8 @@ func main() {
 	earningAfterTax  := earningBeforeTax - Taxes
 	fmt.Println("earningAfterTax",earningAfterTax)
 
+	
+
 }
 
 
